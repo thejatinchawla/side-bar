@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    display:flex;
+}
+main{
+    width: 100%;
+    /* padding: 20px; */
+}
+.sidebar{
+    background: #252525;
+    color: #fff;
+    height: 100vh;
+    /* width: 200px; */
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:10px 10px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 18px 35px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.link:hover{
+    /* background:lightskyblue; */
+    color: lightskyblue;
+    transition: all 0.5s;
+}
+.active{
+    background: #121212;
+    color: lightskyblue;
+}
+.icon, .link_text{
+    font-size: 18px;
+}
+.Bdashboard, .Bprofile , .Bgallery {
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);  
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: solid rgb(62, 78, 84) 1px;
+}
+
+.cards{
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.card {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+}
+.Bprofile{
+  padding: 20px;
+}
+.buyer-form{
+  width: 800px;
+}
+.bgcolor{
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.landingpage-content , .login-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  width: fit-content;
+  border: solid skyblue 1px;
+  border-radius: 25px;
+  padding: 50px 100px;
+}
+.register-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  width: fit-content;
+  border: solid skyblue 1px;
+  border-radius: 25px;
+  padding: 0px 180px;
+}
